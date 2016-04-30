@@ -12,7 +12,7 @@ public class Crime {
     private UUID mId;
     private String mTitle;
     private Date mDate;
-    private boolean mSloved;
+    private boolean mSolved;
 
     public Crime() {
         mId = UUID.randomUUID();
@@ -40,10 +40,10 @@ public class Crime {
     }
 
     public boolean isSloved() {
-        return mSloved;
+        return mSolved;
     }
 
     public void setSloved(boolean sloved) {
-        mSloved = sloved;
+        mSolved = sloved;
     }
 }
