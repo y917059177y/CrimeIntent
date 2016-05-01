@@ -10,7 +10,7 @@ public class CrimeActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_crime);
+        setContentView(R.layout.activity_fragment);
 
         // 获取FragmentManager
         FragmentManager fm = getFragmentManager();
