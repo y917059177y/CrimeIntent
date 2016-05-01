@@ -29,7 +29,7 @@ public class CrimeLab {
         // 向mCrimes添加100个Crime
         for (int i = 0; i < 100; i++) {
             Crime crime = new Crime();
-            crime.setTitle("#" + i);
+            crime.setTitle("Crime #" + i);
             crime.setSloved(i % 2 == 0);
             mCrimes.add(crime);
         }
