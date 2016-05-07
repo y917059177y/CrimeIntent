@@ -1,6 +1,7 @@
 package com.example.administrator.crimeintent;
 
-import android.support.v4.app.Fragment;
+
+import android.app.Fragment;
 
 /**
  * Created by Administrator on 2016/5/2.

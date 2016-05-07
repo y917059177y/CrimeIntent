@@ -1,8 +1,8 @@
 package com.example.administrator.crimeintent;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -85,7 +85,6 @@ public class CrimeListFragment extends Fragment {
         public void onClick(View v) {
 
             // getActivity()获取持有这个Fragment的Activity
-//            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
             Intent intent = CrimePagerActivity.newIntent(getActivity(), mCrime.getId());
             startActivity(intent);
         }
