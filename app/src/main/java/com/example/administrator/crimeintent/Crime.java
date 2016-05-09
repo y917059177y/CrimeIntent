@@ -39,11 +39,11 @@ public class Crime {
         mDate = date;
     }
 
-    public boolean isSloved() {
+    public boolean isSolved() {
         return mSolved;
     }
 
-    public void setSloved(boolean sloved) {
+    public void setSolved(boolean sloved) {
         mSolved = sloved;
     }
 }
