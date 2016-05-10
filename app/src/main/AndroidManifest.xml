@@ -12,7 +12,7 @@
         <activity
             android:name=".CrimePagerActivity"
             android:label="@string/app_name"
-            android:parentActivityame=".CrimeListActivity">
+            android:parentActivityName=".CrimeListActivity">
         </activity>
 
         <activity android:name=".CrimeListActivity">
