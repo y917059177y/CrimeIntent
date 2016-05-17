@@ -21,6 +21,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import java.util.Date;
 import java.util.UUID;
@@ -37,6 +39,8 @@ public class CrimeFragment extends Fragment {
     public static final int REQUEST_DATE = 0;
     public static final int REQUEST_CONTACT = 1;
 
+    private ImageView mPhotoView;
+    private ImageButton mPhotoButton;
     private Crime mCrime;
     private EditText mTitleField;
     private Button mDateButton;
@@ -79,6 +83,10 @@ public class CrimeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime, container, false);
+
+        mPhotoView = (ImageView) v.findViewById(R.id.crime_photo);
+
+        mPhotoButton = (ImageButton) v.findViewById(R.id.crime_camera);
 
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
