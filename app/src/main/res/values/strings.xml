@@ -13,11 +13,11 @@
     <string name="crime_suspect_text">选择联系人</string>
     <string name="crime_report_text">发送事件报告</string>
 
-    <string name="crime_report">%1$s!发现案件在%2$s. %3$s, and %4$s</string>
+    <string name="crime_report">%1$s！发现案件的时间是%2$s，%3$s，%4$s</string>
     <string name="crime_report_solved">案件已解决</string>
     <string name="crime_report_unsolved">案件未解决</string>
-    <string name="crime_report_no_suspect">这里没有嫌疑人</string>
+    <string name="crime_report_no_suspect">未选择嫌疑人</string>
     <string name="crime_report_suspect">嫌疑人是%s.</string>
     <string name="crime_report_subject">案件报告</string>
-    <string name="send_report">发送案件报告通过</string>
+    <string name="send_report">请选择发送案件报告的软件</string>
 </resources>
